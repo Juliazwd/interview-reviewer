@@ -1,0 +1,23 @@
+# 环境隔离：虚拟环境不入库
+.venv/
+venv/
+
+# 密钥
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# 产物与数据
+outputs/
+evaluation/data/
+*.mp3
+*.m4a
+*.wav
+*.docx
+
+# Gradio / IDE
+.gradio/
+.vscode/
+.idea/
